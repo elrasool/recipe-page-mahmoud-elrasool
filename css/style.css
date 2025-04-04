@@ -106,7 +106,7 @@ ol {
 .ingredients-section,
 .instructions-section {
   border-bottom: 1px solid var(--Stone-150);
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .ingredients {
@@ -157,5 +157,22 @@ ol {
   left: -25px;
 }
 
+.nutrition-section .section-title {
+  margin-bottom: 15px;
+}
+
+.nutrition-section th,
+td {
+  border-bottom: 1px solid var(--Brown-800);
+  border-collapse: separate;
+  width: 100%;
+}
+
+.nutrition-section th {
+  color: var(--Stone-600);
+  font-family: "Outfit";
+  font-weight: 600;
+  text-align: start;
+}
 @media screen and (min-width: 768px) {
 }
